@@ -1,0 +1,44 @@
+.header-section {
+    background-color: #cfcab6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    box-shadow: 0 4px 8px 0 rgba(66, 60, 1, 0.671);
+    z-index: 2;
+    @media screen and (max-width: 600px) {
+      justify-content: flex-start;
+      height: 50px;
+    }}
+
+.nav-menu {
+      @media screen and (max-width: 600px) {
+        display: none;
+      }
+      ul {
+        list-style-type: none;
+        margin-top: 10px;
+      }
+  
+      li {
+        display: inline;
+        padding: 0 30px;
+        a {
+          text-decoration: none;
+          color: rgba(66, 60, 1, 0.671);
+          font-weight: bolder;
+        }
+      }
+    }
+.nav-logo{
+ 
+  a{
+  font-weight: bolder;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+}
+.search-input{
+  border-radius: 5;
+}

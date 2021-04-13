@@ -1,0 +1,22 @@
+.button{
+    font:bold;
+    border: 1px solid midnightblue;
+    background-color: midnightblue;
+    color: white;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.button:hover,
+.button:active{
+    background: rgb(46, 46, 116);
+    border-color: rgb(46, 46, 116) ;
+}
+
+.button:focus{
+    outline: none;
+
+}
+
