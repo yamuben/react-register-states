@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{Fragment, useState} from 'react';
 import {Route, Switch,BrowserRouter as Router} from 'react-router-dom';
 
 import './App.css';
@@ -31,11 +31,11 @@ function App(){
     })
   }
   return(
-    <div>
+    <Fragment>
       <AddUser onAddUser={addUserHandler}/>
       <UsersList users={usersList}/>
 
-    </div>
+    </Fragment>
   );
 }
 
